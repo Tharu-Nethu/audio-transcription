@@ -25,7 +25,7 @@ q = queue.Queue()
 
 # Streamlit UI
 st.set_page_config(page_title="Live Voice Transcriber", layout="centered")
-st.title("🎧 Live Voice Transcriber (Any Language ➝ English Letters)")
+st.title("🎧 Live Voice Transcriber")
 
 # State variables
 if "transcript_log" not in st.session_state:
